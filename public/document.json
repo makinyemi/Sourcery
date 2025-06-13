@@ -1,0 +1,52 @@
+{
+	"title": "Dummy Document",
+	"sections": [
+		{
+			"kind": "paragraph",
+			"text": "This is a much longer paragraph"
+		},
+		{
+			"kind": "list",
+			"elements": [
+				{
+					"kind": "paragraph",
+					"text": "Dummy paragraph 1"
+				},
+				{
+					"kind": "paragraph",
+					"text": "Dummy paragraph 2"
+				},
+				{
+					"kind": "paragraph",
+					"text": "Dummy paragraph 3"
+				}
+			]
+		},
+		{
+			"kind": "table",
+			"columns": ["A", "B"],
+			"rows": [
+				{
+					"A": {
+						"kind": "table_cell",
+						"content": [
+							{
+								"kind": "paragraph",
+								"text": "Some text"
+							}
+						]
+					},
+					"B": {
+						"kind": "table_cell",
+						"content": [
+							{
+								"kind": "paragraph",
+								"text": "Some text"
+							}
+						]
+					}
+				}
+			]
+		}
+	]
+}
