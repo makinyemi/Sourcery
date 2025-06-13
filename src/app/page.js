@@ -59,7 +59,7 @@ export default function Home() {
 											key={index}
 											text={section.text}
 											onChangeText={(newText) =>
-												handleUpdateSection(index, {
+												updateSection(index, {
 													...section,
 													text: newText
 												})
@@ -73,7 +73,7 @@ export default function Home() {
 											key={index}
 											elements={section.elements}
 											onElementChange={(newElement) =>
-												handleUpdateSection(index, {
+												updateSection(index, {
 													...section,
 													elements: newElement
 												})
@@ -88,7 +88,7 @@ export default function Home() {
 											columns={section.columns}
 											rows={section.rows}
 											onRowChange={(newRows) =>
-												handleUpdateSection(index, {
+												updateSection(index, {
 													...section,
 													rows: newRows
 												})
